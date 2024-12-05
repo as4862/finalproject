@@ -7,7 +7,9 @@ body {
     color: #f5f5f5; /* Light text color for contrast */
     font-family: Arial, sans-serif;
   }
-  
+p {
+    color: #ffffff; /* Set text color to white */
+}
   /* Header Styling */
   header {
     background-color: rgba(0, 0, 0, 0.8);
