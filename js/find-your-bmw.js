@@ -28,6 +28,13 @@ const cars = [
       mileage: 5000,
       image: "images/bmwm4.jpg",
     },
+    {
+        model: "BMW X6M",
+        year: 2023,
+        price: 120000,
+        mileage: 5000,
+        image: "images/bmwx6m.jpg",
+      },
   ];
   
   // HTML container for displaying cars
