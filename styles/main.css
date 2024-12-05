@@ -7,10 +7,11 @@ body {
 
 /* Header Styling */
 header {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #f5f5f5;
-    padding: 20px 0;
     text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
 }
 
 header h1 {
@@ -28,13 +29,19 @@ h1, h2 {
 }
 
 h1 {
-    color: #007bff; /* Primary blue */
-    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
 }
 
 h2 {
-    color: #00aaff; /* Secondary blue */
-    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
 }
 
 /* Background Section Styling */
