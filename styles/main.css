@@ -1,81 +1,74 @@
 /* General Styling */
 body {
-    background: linear-gradient(to right, #1c1c1e, #2c3e50);
-    color: #f5f5f5;
-    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #1c1c1e, #2c3e50); /* Gradient background */
+    color: #f5f5f5; /* Light text for contrast */
+    font-family: Arial, sans-serif; /* Clean, modern font */
+    margin: 0; /* Remove default margins */
+}
+
+/* Universal Heading Styling */
+h1, h2 {
+    color: #007bff; /* BMW Blue */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Soft shadow for depth */
+    font-weight: bold; /* Bold text for emphasis */
+    text-align: center; /* Centered text */
+    margin: 20px 0; /* Add spacing around headings */
+    letter-spacing: 1px; /* Enhance readability with slight spacing */
+}
+
+/* Section Styling */
+section {
+    background-color: rgba(20, 20, 20, 0.8); /* Dark translucent background */
+    padding: 20px; /* Internal spacing */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 30px; /* Space between sections */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7); /* Subtle shadow for depth */
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 1.1rem; /* Slightly larger text */
+    color: #f5f5f5; /* Light color for readability */
+    line-height: 1.6; /* Comfortable line spacing */
 }
 
 /* Header Styling */
 header {
-    font-family: Arial, sans-serif; /* Use a clean, modern font */
-    color: #007bff; /* BMW Blue */
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Soft shadow effect */
-    font-weight: bold; /* Emphasize boldness */
-    text-align: center; /* Center-align text */
-    margin: 20px 0; /* Add spacing around headings */
-    letter-spacing: 1px; /* Slight letter spacing for readability */
+    text-align: center; /* Center the header content */
+    padding: 20px 0; /* Vertical padding */
+}
+
+header img {
+    border-radius: 50%; /* Circular logo */
+    border: 2px solid #ffffff; /* White border */
 }
 
 header h1 {
-    font-family: Arial, sans-serif; /* Use a clean, modern font */
-    color: #007bff; /* BMW Blue */
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Soft shadow effect */
-    font-weight: bold; /* Emphasize boldness */
-    text-align: center; /* Center-align text */
-    margin: 20px 0; /* Add spacing around headings */
-    letter-spacing: 1px; /* Slight letter spacing for readability */
+    margin-top: 10px; /* Add spacing below the logo */
 }
 
-/* Section Heading Styling */
-h1, h2 {
-    font-family: Arial, sans-serif; /* Use a clean, modern font */
-    color: #007bff; /* BMW Blue */
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Soft shadow effect */
-    font-weight: bold; /* Emphasize boldness */
-    text-align: center; /* Center-align text */
-    margin: 20px 0; /* Add spacing around headings */
-    letter-spacing: 1px; /* Slight letter spacing for readability */
+/* Navigation Styling */
+nav {
+    background-color: #007bff; /* BMW Blue */
 }
 
-h1 {
-    font-family: Arial, sans-serif; /* Use a clean, modern font */
-    color: #007bff; /* BMW Blue */
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Soft shadow effect */
-    font-weight: bold; /* Emphasize boldness */
-    text-align: center; /* Center-align text */
-    margin: 20px 0; /* Add spacing around headings */
-    letter-spacing: 1px; /* Slight letter spacing for readability */
+nav .nav-link {
+    color: #ffffff; /* White text */
+    font-weight: bold; /* Bold links */
+    text-transform: uppercase; /* Uppercase for emphasis */
+    transition: color 0.3s ease; /* Smooth hover effect */
 }
 
-h2 {
-    font-family: Arial, sans-serif; /* Use a clean, modern font */
-    color: #007bff; /* BMW Blue */
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Soft shadow effect */
-    font-weight: bold; /* Emphasize boldness */
-    text-align: center; /* Center-align text */
-    margin: 20px 0; /* Add spacing around headings */
-    letter-spacing: 1px; /* Slight letter spacing for readability */
-}
-
-/* Background Section Styling */
-section {
-    background-color: rgba(20, 20, 20, 0.8);
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 30px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
-}
-
-p {
-    font-size: 1.1rem;
-    color: #f5f5f5;
+nav .nav-link:hover {
+    color: #f5f5f5; /* Slightly lighter color on hover */
 }
 
 /* Footer Styling */
 footer {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #d1d1d1;
-    text-align: center;
-    padding: 15px;
-    font-size: 0.9rem;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background */
+    color: #d1d1d1; /* Gray text for contrast */
+    text-align: center; /* Center the content */
+    padding: 15px; /* Padding for spacing */
+    font-size: 0.9rem; /* Smaller font size */
+    border-top: 1px solid #333; /* Subtle top border */
 }
