@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMW Models</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f8f9fa; /* Light background for better contrast */
+      color: #212529; /* Dark text for readability */
+    }
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 15px 0;
+    }
+    header img {
+      border-radius: 50%;
+      border: 2px solid white;
+    }
+    header h1 {
+      font-weight: bold;
+    }
+    .models-section {
+      margin-top: 30px;
+    }
+    .models-grid {
+      margin-top: 20px;
+    }
+    .models-text {
+      background-color: #e9ecef;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      background-color: #343a40;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="text-center">
+    <div class="container">
+      <img src="images/bmwlogo.jpg" alt="BMW Logo" width="80">
+      <h1>BMW Enthusiasts</h1>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="history.html">History</a></li>
+        <li class="nav-item"><a class="nav-link" href="manufacturing.html">Manufacturing</a></li>
+        <li class="nav-item"><a class="nav-link active" href="models.html">Models</a></li>
+        <li class="nav-item"><a class="nav-link" href="find-your-bmw.html">Find Your BMW</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog-contact.html">Blog/Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container models-section">
+    <h2 class="text-center text-primary">BMW Models</h2>
+
+    <!-- Grid Section -->
+    <div class="row models-grid">
+      <div class="col-md-3">
+        <img src="images/bmw3.jpg" alt="BMW 3 Series" class="img-fluid rounded shadow-sm">
+        <p class="text-center mt-2">BMW 3 Series</p>
+      </div>
+      <div class="col-md-3">
+        <img src="images/bmw5.jpg" alt="BMW 5 Series" class="img-fluid rounded shadow-sm">
+        <p class="text-center mt-2">BMW 5 Series</p>
+      </div>
+      <div class="col-md-3">
+        <img src="images/bmwx5.jpg" alt="BMW X5" class="img-fluid rounded shadow-sm">
+        <p class="text-center mt-2">BMW X5</p>
+      </div>
+      <div class="col-md-3">
+        <img src="images/bmwm4.jpg" alt="BMW M4" class="img-fluid rounded shadow-sm">
+        <p class="text-center mt-2">BMW M4</p>
+      </div>
+    </div>
+
+    <!-- Text Section -->
+    <div class="row mt-5">
+      <div class="col-md-12">
+        <div class="models-text">
+          <h4>About BMW Models</h4>
+          <p>
+            BMW offers a range of luxury vehicles designed for ultimate performance, comfort, and style. From the sporty BMW 3 Series to the high-performance BMW M4, each car embodies the pinnacle of German engineering. The BMW X5 redefines the SUV experience, while the BMW 5 Series combines sophistication and power.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; <span id="footerYear"></span> BMW Enthusiasts. All Rights Reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    document.getElementById("footerYear").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
