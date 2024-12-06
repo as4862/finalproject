@@ -7,16 +7,15 @@
   <title>BMW Enthusiasts</title>
   <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
-
 </head>
 <body>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   
-  <header class="text-center">
+  
+  <header class="text-center py-4 bg-dark text-light">
     <div class="container">
-      <img src="images/bmwlogo.jpg" alt="BMW Logo" width="100" class="mb-2">
-      <h1>BMW Enthusiasts</h1>
-      <p>Your destination for BMW excellence and performance</p>
+      <img src="images/bmwlogo.jpg" alt="BMW Logo" width="100" class="mb-3">
+      <h1 class="display-4">BMW Enthusiasts</h1>
+      <p class="lead">Your destination for BMW excellence and performance</p>
     </div>
   </header>
 
@@ -40,23 +39,23 @@
   </nav>
 
   
-  <section>
+  <section class="text-center bg-secondary text-light py-5">
     <div class="container">
-      <h2>Welcome to BMW Enthusiasts</h2>
-      <p>Explore luxury, innovation, and driving performance with BMW.</p>
-      <a href="models.html" class="btn btn-lg">View Our Models</a>
+      <h2 class="display-5">Welcome to BMW Enthusiasts</h2>
+      <p class="lead">Explore luxury, innovation, and driving performance with BMW.</p>
+      <a href="models.html" class="btn btn-primary btn-lg mt-3">View Our Models</a>
     </div>
   </section>
 
-
+  
   <main class="container my-5">
-    <h2 class="text-center mb-4">Featured BMW Models</h2>
+    <h2 class="text-center mb-4 text-primary">Featured BMW Models</h2>
     <div class="row g-4">
       <div class="col-md-6 col-lg-3">
         <div class="card shadow-sm">
           <img src="images/bmwm3.jpg" class="card-img-top" alt="BMW M3">
           <div class="card-body text-center">
-            <h5 class="card-title">BMW M3</h5>
+            <h5 class="card-title text-primary">BMW M3</h5>
             <p class="card-text">Dynamic performance, bold design.</p>
           </div>
         </div>
@@ -65,7 +64,7 @@
         <div class="card shadow-sm">
           <img src="images/bmwm5.jpg" class="card-img-top" alt="BMW M5">
           <div class="card-body text-center">
-            <h5 class="card-title">BMW M5</h5>
+            <h5 class="card-title text-primary">BMW M5</h5>
             <p class="card-text">A perfect blend of luxury and power.</p>
           </div>
         </div>
@@ -74,7 +73,7 @@
         <div class="card shadow-sm">
           <img src="images/bmwx5m.jpg" class="card-img-top" alt="BMW X5M">
           <div class="card-body text-center">
-            <h5 class="card-title">BMW X5M</h5>
+            <h5 class="card-title text-primary">BMW X5M</h5>
             <p class="card-text">Redefining the SUV experience.</p>
           </div>
         </div>
@@ -83,7 +82,7 @@
         <div class="card shadow-sm">
           <img src="images/bmwm4.jpg" class="card-img-top" alt="BMW M4">
           <div class="card-body text-center">
-            <h5 class="card-title">BMW M4</h5>
+            <h5 class="card-title text-primary">BMW M4</h5>
             <p class="card-text">Precision meets performance.</p>
           </div>
         </div>
@@ -91,15 +90,15 @@
     </div>
   </main>
 
- 
-  <footer class="text-center">
+  
+  <footer class="text-center bg-dark text-light py-3">
     <p>&copy; <span id="footerYear"></span> BMW Enthusiasts. All Rights Reserved.</p>
   </footer>
 
- 
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   <script>
-   
+    
     document.getElementById("footerYear").textContent = new Date().getFullYear();
   </script>
 </body>
