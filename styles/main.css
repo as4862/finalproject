@@ -1,74 +1,69 @@
-/* General Styling */
+/* DEVELOPER Anirudh Samala, IS117-001, Fall 2024 */
+
 body {
-    background: linear-gradient(to right, #1c1c1e, #2c3e50); /* Gradient background */
-    color: #f5f5f5; /* Light text for contrast */
-    font-family: Arial, sans-serif; /* Clean, modern font */
-    margin: 0; /* Remove default margins */
+    background: linear-gradient(to right, #1c1c1e, #2c3e50);
+    color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
 }
 
-/* Universal Heading Styling */
 h1, h2 {
-    color: #007bff; /* BMW Blue */
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Soft shadow for depth */
-    font-weight: bold; /* Bold text for emphasis */
-    text-align: center; /* Centered text */
-    margin: 20px 0; /* Add spacing around headings */
-    letter-spacing: 1px; /* Enhance readability with slight spacing */
+    color: #007bff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    letter-spacing: 1px;
 }
 
-/* Section Styling */
 section {
-    background-color: rgba(20, 20, 20, 0.8); /* Dark translucent background */
-    padding: 20px; /* Internal spacing */
-    border-radius: 8px; /* Rounded corners */
-    margin-bottom: 30px; /* Space between sections */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7); /* Subtle shadow for depth */
+    background-color: rgba(20, 20, 20, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
 }
 
-/* Paragraph Styling */
 p {
-    font-size: 1.1rem; /* Slightly larger text */
-    color: #f5f5f5; /* Light color for readability */
-    line-height: 1.6; /* Comfortable line spacing */
+    font-size: 1.1rem;
+    color: #f5f5f5;
+    line-height: 1.6;
 }
 
-/* Header Styling */
 header {
-    text-align: center; /* Center the header content */
-    padding: 20px 0; /* Vertical padding */
+    text-align: center;
+    padding: 20px 0;
 }
 
 header img {
-    border-radius: 50%; /* Circular logo */
-    border: 2px solid #ffffff; /* White border */
+    border-radius: 50%;
+    border: 2px solid #ffffff;
 }
 
 header h1 {
-    margin-top: 10px; /* Add spacing below the logo */
+    margin-top: 10px;
 }
 
-/* Navigation Styling */
 nav {
-    background-color: #007bff; /* BMW Blue */
+    background-color: #007bff;
 }
 
 nav .nav-link {
-    color: #ffffff; /* White text */
-    font-weight: bold; /* Bold links */
-    text-transform: uppercase; /* Uppercase for emphasis */
-    transition: color 0.3s ease; /* Smooth hover effect */
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
 }
 
 nav .nav-link:hover {
-    color: #f5f5f5; /* Slightly lighter color on hover */
+    color: #f5f5f5;
 }
 
-/* Footer Styling */
 footer {
-    background-color: rgba(0, 0, 0, 0.8); /* Dark background */
-    color: #d1d1d1; /* Gray text for contrast */
-    text-align: center; /* Center the content */
-    padding: 15px; /* Padding for spacing */
-    font-size: 0.9rem; /* Smaller font size */
-    border-top: 1px solid #333; /* Subtle top border */
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #d1d1d1;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    border-top: 1px solid #333;
 }
